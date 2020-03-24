@@ -3,11 +3,11 @@ def run_guessing_game
   puts "Guess a my number between 1 and 6!"
   user_guess = gets.chomp
   if user_guess == secret_number
-    puts ""
+    puts "You guessed the correct number!"
   elsif user_guess == "exit"
     puts "Goodbye!"
   end 
-  
+  puts 
 end 
 
 run_guessing_game
